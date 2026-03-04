@@ -1,0 +1,44 @@
+nohup: 忽略输入
+Python-dotenv could not parse statement starting at line 1
+Python-dotenv could not parse statement starting at line 2
+2026-03-02 20:01:54,887 INFO: Loading multi-object dataset from: /home/hoho/WM_ws/WMNavigation-master/data/multi_objectnav_hm3d/val/val.json.gz
+2026-03-02 20:01:54,888 INFO: Loading goals_by_category from: /home/hoho/WM_ws/WMNavigation-master/data/objectnav_hm3d_v2/val/content
+2026-03-02 20:01:55,875 INFO: Loaded 72 episodes. Mode: Multi-Object
+[20:01:55:998618]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/home/hoho/WM_ws/WMNavigation-master/data/hm3d_v0.2/val/00877-4ok3usBNeis/4ok3usBNeis.basis.scn` exists but failed to load.
+2026-03-02 20:01:56,813 INFO: Simulator initialized!
+2026-03-02 20:01:56,814 INFO: Using 3431 view positions for path planning
+2026-03-02 20:01:56,824 INFO: 
+===================STARTING RUN: 0_877 ===================
+
+2026-03-02 20:02:15,514 INFO: Initialized Curiosity Map with 2 channels
+/home/hoho/miniconda3/envs/wmnav/lib/python3.9/site-packages/numpy/core/_methods.py:213: RuntimeWarning: overflow encountered in reduce
+  arrmean = umr_sum(arr, axis, dtype, keepdims=True, where=where)
+2026-03-02 20:02:21,907 INFO: Step 0
+2026-03-02 20:02:27,170 INFO: 🎉 Target Found: chair
+2026-03-02 20:02:27,170 INFO: Resetting exploration state for next target...
+2026-03-02 20:02:51,101 INFO: Step 1
+2026-03-02 20:03:21,312 INFO: Step 2
+2026-03-02 20:03:54,218 INFO: Step 3
+2026-03-02 20:04:25,873 INFO: Step 4
+2026-03-02 20:04:56,570 INFO: Step 5
+2026-03-02 20:05:28,705 INFO: Step 6
+2026-03-02 20:05:34,686 INFO: 🎉 Target Found: bed
+2026-03-02 20:05:34,686 INFO: Resetting exploration state for next target...
+2026-03-02 20:05:57,282 INFO: Step 7
+2026-03-02 20:05:57,283 INFO: 🎯 Agent confirmed all goals found based on Ground Truth!
+2026-03-02 20:05:58,188 INFO: Model called stop
+2026-03-02 20:05:59,197 INFO: Success: True
+2026-03-02 20:05:59,197 INFO: 
+===================RUN COMPLETE===================
+
+2026-03-02 20:05:59,467 WARNING: MovieWriter imagemagick unavailable; using Pillow instead.
+2026-03-02 20:05:59,467 INFO: Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2026-03-02 20:05:59,888 INFO: GIF animation saved successfully!
+2026-03-02 20:06:00,627 WARNING: MovieWriter imagemagick unavailable; using Pillow instead.
+2026-03-02 20:06:00,628 INFO: Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2026-03-02 20:06:02,068 INFO: GIF animation saved successfully!
+2026-03-02 20:06:02,803 WARNING: MovieWriter imagemagick unavailable; using Pillow instead.
+2026-03-02 20:06:02,803 INFO: Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2026-03-02 20:06:04,154 INFO: GIF animation saved successfully!
+[DEBUG] Multi-Object Episode: ['chair', 'bed']
+[DEBUG] Found 3431 view positions
